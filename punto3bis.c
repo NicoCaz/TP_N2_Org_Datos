@@ -13,7 +13,7 @@ void MergeSort(char * archivo)
     int ordenado, numArchivo;
     ordenado=numArchivo=0;
     FILE *temp1,*temp2;
-    FILE *arch=fopen(*archivo, "wb+");
+    FILE *arch=fopen(*archivo, "rb+");
     while (arch!=NULL && !ordenado)
     {   temp1 = fopen("temp1.temp", "wb+");
         temp2 = fopen("temp2.temp", "wb+");
