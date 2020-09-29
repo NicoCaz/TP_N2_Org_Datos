@@ -1,0 +1,59 @@
+FIJAS
+
+regNotas{    
+    facultad C7
+    universidad C3
+    materia E7 
+    alumno  E7
+    edad    C9
+    docente C6
+    nota    E7
+    observaciones T
+}
+
+VARIABLES
+
+regNotas{
+    facultad CV
+    universidad EN
+    materia CV
+    alumno CV
+    edad    EN
+    docente EN
+    nota   CV
+    observaciones CV
+}
+
+
+FIJAS
+regCompras{
+    fecha   E7 
+    hora    E7
+    codPro  C4
+    Ciudad  C6
+    local   E7
+    vendedor E7
+    factura E7
+    producto E7
+    cantidad E7
+    valorUnitaRio E7
+    total   E7
+    observaciones T
+}
+
+VARIABLES   
+
+regCompras{
+    fecha EN
+    hora EN
+    codPro CV
+    Ciudad CV
+    local EN
+    vendedor EN
+    factura EN
+    producto EN
+    cantidad EN
+    valorUnitario EN
+    total  EN
+    observaciones T
+}
